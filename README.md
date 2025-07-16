@@ -1,8 +1,8 @@
 # HSCVATIO
-Tools for uploading HTPA data to CVAT and downloading annotations
+Tools for uploading HTPA data to CVAT and downloading annotations.
 
 ## Installation
-In the following instructions for the installation via conda as well as pip are provided.
+In the following instructions for the installation via pip are provided.
 
 ### Prerequisites
 - A working Pyhon installation. ([Download Python](https://www.python.org/downloads/))
@@ -25,29 +25,32 @@ In the following instructions for the installation via conda as well as pip are 
   ```sh
     ./path/to/new/virtual/environment/hs/Scripts/activate
   ```
+### Download and install HSPyTools
+Follow the instructions [here](https://github.com/arehmer/HSPyTools) to download and install
+HSPyTools.
 
 ### Download HSCvatIO
 1. Clone this repository either via using the shell
 
  ```sh
- git clone https://github.com/arehmer/HSPyTools.git
+ git clone https://github.com/arehmer/HSCvatIO.git
   ```
 
    or using the GitHub Desktop-App: ```File-->Clone repository ``` <br>
    <img src="images/screenshot1_github_desktop.png"  height="300">
 
-   and then enter the URL ```https://github.com/arehmer/HSPyTools.git``` into the mask <br>
+   and then enter the URL ```https://github.com/arehmer/HSCvatIO.git``` into the mask <br>
    <img src="images/screenshot2_github_desktop.png" height="200">
 
-### Install HSPyTools
+### Install HSCvatIO
 1. Open a Shell.
-2. Optional: Activate the environment in which HSPyTools is to be installed via
+2. Optional: Activate the environment in which HSCvatIO is to be installed via
     ```sh
     source /path/to/virtual/environment/Scripts/activate
     ```
 4. Install HSFit in development mode with pip via
     ```sh
-    pip install -e \path\to\HSPyTools>
+    pip install -e \path\to\HSCvatIO>
     ```
     The installation in devlopment mode makes sure, that changes to the repository are automatically reflected in the installed library. Therefore no new installation is necessary after pulling new commits.
 
@@ -57,9 +60,9 @@ In the following instructions for the installation via conda as well as pip are 
    ```sh
    python
    ```
-2. Then try to import HSPyTools by typing
+2. Then try to import HSCvatIO by typing
 
    ```sh
-   import hspytools
+   import hscvatio
    ```
    If no error message occurs, installation was successful.

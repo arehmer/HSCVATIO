@@ -1,4 +1,4 @@
-# HSCVATIO
+# HSCvatIO
 Tools for uploading HTPA data to CVAT and downloading annotations
 
 ## Installation

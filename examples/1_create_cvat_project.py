@@ -8,8 +8,6 @@ Created on Fri Mar 24 10:50:25 2023
 from pathlib import Path
 import numpy as np
 
-# from hsod.od_mgr import od_mgr
-# from hsod.cvat.annot import Annot
 from hscvatio.hdf5 import CVAT_DataMgr
 
 from hspytools.cv import filters

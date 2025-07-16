@@ -1,3 +1,4 @@
 *.png
 *.pyc
 /HSCVATIO.egg-info
+*.hdf5
